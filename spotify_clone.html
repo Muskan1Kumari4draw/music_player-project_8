@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify_Clone</title>
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="spotify_clone.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="spotifyclone for small.css">
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="spotifyclone for small.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+
+            <li class="brand"><img src="logo2-removebg-preview.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="song-list">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songitemcontent">
+                <div class="songItem">
+                    <img src="/kashmir me.jpg" alt="i">
+                    <span class="songName">Kashmir to KanyaKumari</span>
+                    <span class="songlistsplay"><span class="timestamp">0.5:30<i
+                               id="0"  class="fa-regular songItemPlay fa-1.5x fa-circle-play looogo"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/4.jpg" alt="i">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistsplay"><span class="timestamp">0.5:30<i
+                                id="1" class="fa-regular songItemPlay fa-1.5x fa-circle-play looogo"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/kalaya.jpg" alt="i">
+                    <span class="songName">Chitiya Kalaiyan</span>
+                    <span class="songlistsplay"><span class="timestamp">0.5:30<i
+                               id="2" class="fa-regular songItemPlay fa-1.5x fa-circle-play looogo"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="/3.jpgs" alt="i">
+                    <span class="songName">Bom Bom bole masti mein </span>
+                    <span class="songlistsplay"><span class="timestamp">0.5:30<i
+                               id="3"  class="fa-regular  songItemPlay fa-1.5x fa-circle-play looogo"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="song-banner"></div>
+    </div>
+   
+    <div class="bottom">
+        <input type="range" name="range" id="myProgress" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-regular  fa-3x fa-circle-play" id="masterplay"></i>
+            <i class="fa-solid fa-3x fa-forward-step " id="next"></i>
+           
+        </div>
+        <div class="songs-icons"><span id="masterSong">Chennai Express</span>
+            
+            
+        </div>
+        <div class="songs-icons"><img src="playing.gif" alt="Playing" width="42px" id="gif"></div>
+
+       
+    </div>
+
+    <script src="spotify_clone.js"></script>
+</body>
+
+</html>

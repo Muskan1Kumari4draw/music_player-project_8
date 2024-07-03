@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Playwrite México;
+}
+body {
+  background-color: antiquewhite;
+}
+nav {
+  font-size: "Varela Round", sans-serif;
+  border-bottom: 2px solid green;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.brand img {
+  width: 49px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container {
+  min-height: 50vh;
+  background-color: black;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  margin: 23px auto;
+  display: flex;
+  width: 70%;
+  border-radius: 12px;
+  padding: 34px;
+  background-image: url(bag.avif);
+  background-size: cover;
+}
+.bottom {
+  position: sticky;
+  height: 250px;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  flex-direction: column;
+}
+
+.icons {
+  margin-top: 14px;
+}
+.icons i {
+  cursor: pointer;
+  /* margin-bottom: 70px; */
+  margin-top: 30px;
+}
+#myProgress {
+  width: 90vw;
+  cursor: pointer;
+}
+
+.songItem {
+  height: 55px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+}
+.songItem img {
+  width: 50px;
+  height: 50px;
+  margin: 3px 28px 3px 3px;
+  border-radius: 50%;
+  box-shadow: 3px 2px grey;
+}
+.timestamp {
+  margin: 0 23px;
+
+}
+.timestamp i{
+    cursor: pointer;
+}
+.looogo{
+    padding-left: 10px;
+}
+.songitemcontent{
+    margin-top: 74px;
+}
+.songs-icons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    left: 0;
+    /* height: 80px; */
+    margin-left: 70px;
+    background-color: black;   
+}
+.songs-icons span{
+    font-size: 1rem;
+    font-family: "Varela Round", sans-serif;
+}
+.songs-icons img{
+    height:20px;
+    width: 50px;
+    opacity: 0;
+    transition: opacity 0.4Ss ease-in;
+}
